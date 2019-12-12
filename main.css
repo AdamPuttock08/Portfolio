@@ -1,0 +1,293 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Verdana", Sans-serif;
+  font-size: 1em;
+}
+
+p {
+  margin: 15px;
+}
+
+@media (max-width: 775px) {
+  p {
+    font-size: 0.75em;
+  }
+}
+
+.header {
+  padding: 5%;
+  text-align: center;
+  background-image: url("./images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+@media (max-width: 775px) {
+  li a {
+    font-size: 0.9em;
+    float: center;
+    position: relative;
+    left: 20%;
+  }
+}
+
+a:hover {
+  background-color: #ddd;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.homepage {
+  text-align: center;
+  font-weight: normal;
+  margin: 20px 0;
+  color: #333;
+}
+
+.homepage a {
+  float: left;
+  margin-left: 25px;
+}
+
+@media (max-width: 775px) {
+  .homepage {
+    margin-top: 20px;
+  }
+}
+
+.header p {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  padding: 20px;
+  color: greenyellow;
+  font-size: 25px;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+
+.grid-item a {
+  word-wrap: break-word;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.icons {
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+  display: inline;
+}
+
+@media (max-width: 775px) {
+  .icons {
+    left: 0;
+    top: 195;
+    text-align: center;
+    background-color: #333;
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+ul .image {
+  border-radius: 5px;
+  text-align: left;
+}
+
+#image3 {
+  background-color: white;
+}
+
+#image4 {
+  padding: 5px;
+  margin: 10px;
+}
+
+@media (max-width: 775px) {
+  #image4 {
+    height: 200px;
+    width: 175px;
+  }
+}
+
+#image5 {
+  padding: 5px;
+  margin: 10px;
+}
+
+@media (max-width: 775px) {
+  #image5 {
+    height: 200px;
+    width: 125px;
+  }
+}
+
+.work {
+  font-size: 20px;
+  margin: 30px;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  margin-top: auto;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: #333;
+  text-align: center;
+  color: white;
+}
+
+.contact {
+  margin: auto;
+  font-size: 1em;
+  width: 35em;
+  font-size: 0.9em;
+}
+
+@media (max-width: 775px) {
+  .contact {
+    margin: auto;
+  }
+}
+
+#contact {
+  background-color: white;
+  display: inline;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+}
+
+@media (max-width: 775px) {
+  #contact {
+    margin: 10px;
+  }
+}
+
+#portrait {
+  width: 35%;
+  height: 25%;
+}
+
+@media (max-width: 775px) {
+  #portrait {
+    display: inline;
+    width: 100px;
+    height: 125px;
+    margin-right: 15px;
+    margin-top: 35px;
+  }
+}
+
+.introduction,
+.questions {
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.introduction h2 {
+  margin: 15px;
+}
+
+.questions h2,
+h3 {
+  margin: 15px;
+}
+
+#container {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+#footer {
+  text-align: center;
+  font-size: 1em;
+  height: 50px;
+  margin-top: -50px;
+  position: relative;
+  background-color: #333;
+  clear: both;
+  color: white;
+  padding: 5px;
+}
+/*# sourceMappingURL=main.css.map */
